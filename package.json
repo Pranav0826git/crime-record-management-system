@@ -1,1 +1,38 @@
-{\n  "name": "crime-record-management-system",\n  "version": "1.0.0",\n  "description": "A web application for managing crime records",\n  "main": "index.js",\n  "scripts": {\n    "start": "node index.js",\n    "dev": "nodemon index.js",\n    "test": "jest"\n  },\n  "dependencies": {\n    "bcryptjs": "^2.4.3",\n    "cors": "^2.8.5",\n    "dotenv": "^10.0.0",\n    "express": "^4.17.1",\n    "helmet": "^4.4.1",\n    "jsonwebtoken": "^8.5.1",\n    "mongoose": "^6.0.5",\n    "morgan": "^1.10.0"\n  },\n  "devDependencies": {\n    "eslint": "^7.32.0",\n    "jest": "^27.0.6",\n    "nodemon": "^2.0.12",\n    "supertest": "^6.1.6"\n  },\n  "author": "Pranav0826git",\n  "license": "ISC"\n}
+{
+  "name": "crime-record-management-system",
+  "version": "1.0.0",
+  "description": "A comprehensive crime record management system",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "jest --coverage",
+    "lint": "eslint src/**/*.js"
+  },
+  "keywords": [
+    "crime",
+    "records",
+    "management",
+    "system"
+  ],
+  "author": "Pranav0826git",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "dotenv": "^16.3.1",
+    "mongoose": "^7.5.0",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "cors": "^2.8.5",
+    "morgan": "^1.10.0",
+    "validator": "^13.11.0",
+    "helmet": "^7.0.0",
+    "express-async-errors": "^3.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "jest": "^29.7.0",
+    "eslint": "^8.49.0",
+    "supertest": "^6.3.3"
+  }
+}
